@@ -104,7 +104,7 @@ jobs:
               REPO_BRANCH="openwrt-24.10"
               TAGS_NAME="im-24.10"
           else
-              echo "Unknown source code repository."
+              echo "源代码仓库的地址无法被识别或无法访问."
               exit 1
           fi
 
