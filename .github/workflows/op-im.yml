@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       source_branch:
-        description: "Select the source branch"
+        description: "选择仓库的分支："
         required: false
         default: "openwrt_24.10"
         type: choice
