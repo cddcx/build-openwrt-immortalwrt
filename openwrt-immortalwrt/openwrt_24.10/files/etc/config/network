@@ -23,7 +23,7 @@ config interface 'lan'
 	list dns '192.168.3.1'
 	option delegate '0'
 
-config interface 'IPYV'
+config interface 'IPTV'
 	option proto 'dhcp'
 	option device 'eth1'
 	option hostname '5510919900703210000090D8F3C8C024'
